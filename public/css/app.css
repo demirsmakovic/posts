@@ -1,0 +1,27 @@
+.navbar-brand {
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-brand:hover {
+  border-bottom: 2px solid black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  text-align: left;
+  font-size: large;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.nav-link a:hover{
+  background: #000000;
+  color: orange;
+  border-radius: 5px;
+}

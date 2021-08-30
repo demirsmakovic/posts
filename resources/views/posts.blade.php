@@ -7,7 +7,7 @@
         @foreach ($allPosts as $post)
         <div class="col-md-3 mt-3">
             <div class="card">
-                <div class="card-header bg-dark text-white">{{ $post->author }}</div>
+                <div class="card-header bg-dark text-white">{{ $post->author }} <div class="float-end">{{ convert($post->created_at) }}</div></div>
                 <div class="card-body text-center">
                    <h5>{{ $post->title }}</h5>
                    <div class="card-text">{{ $post->body }}</div><br>

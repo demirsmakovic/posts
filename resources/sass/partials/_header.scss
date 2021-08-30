@@ -1,0 +1,6 @@
+.navbar-brand{
+  border-bottom: 2px solid transparent;
+}
+.navbar-brand:hover{
+  border-bottom: 2px solid $nav_hover_color;
+}

@@ -7,7 +7,7 @@
     <div class="row align-items-center">
       <div class="col-md-6 offset-md-3">
         <div class="card">
-          <div class="card-header bg-dark text-white">{{ $post->author }}</div>
+          <div class="card-header bg-dark text-white">{{ $post->author }} <div class="float-end">{{ convert($post->created_at) }}</div></div>
             <div class="card-body text-center">
               <h5>{{ $post->title }}</h5>
               <div class="card-text">{{ $post->body }}</div>

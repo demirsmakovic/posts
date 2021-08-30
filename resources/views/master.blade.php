@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     
 </head>
 <body>
@@ -15,6 +16,7 @@
     @yield('main')
     
     </div>
+    @include('footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $footer-color;
+  color: $footer-text-color;
+  text-align: left;
+  font-size: large;
+}
+
+.footer a{
+  text-decoration: none;
+}
